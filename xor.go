@@ -12,3 +12,5 @@ func Bytes(a, b []byte) []byte {
 	xorBytes(res, a, b)
 	return res
 }
+
+var DstBytes = xorBytes
