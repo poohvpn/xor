@@ -13,4 +13,6 @@ func Bytes(a, b []byte) []byte {
 	return res
 }
 
-var DstBytes = xorBytes
+func DstBytes(dst, a, b []byte) int {
+	return xorBytes(dst, a, b)
+}
